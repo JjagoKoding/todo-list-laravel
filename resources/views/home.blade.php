@@ -10,21 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Hero Section -->
-    <header class="bg-dark text-white text-center py-5">
-        <div class="container py-5">
-            <h1 class="display-4 fw-bold">Welcome to My Blog</h1>
-            <p class="lead">Discover articles, insights, and ideas</p>
-        </div>
-    </header>
-
     <!-- Main Content -->
     <main class="container my-5">
         <div class="row">
             <!-- Blog Articles -->
             <div class="col-lg-8">
                 <div class="mb-4">
-                    <h2 class="h4">Latest Articles</h2>
+                    <h2 class="h4 fw-bold">Latest Articles</h2>
                 </div>
 
                 <!-- Article 1 -->
@@ -52,14 +44,14 @@
                 </article>
             </div>
             <!-- Sidebar -->
-            <aside class="col-lg-4">
+            <aside class="col-lg-4 mt-1">
                 <div class="mb-4">
-                    <h2 class="h4">About Me</h2>
+                    <h2 class="h4 fw-bold mb-3">About Me</h2>
                     <p>Hello! I'm a passionate blogger who loves to write about various topics, including technology, travel, and lifestyle.</p>
                 </div>
 
                 <div class="mb-4">
-                    <h2 class="h4">Categories</h2>
+                    <h2 class="h4 fw-bold mb-3">Categories</h2>
                     <ul class="list-group">
                         <li class="list-group-item">Technology</li>
                         <li class="list-group-item">Travel</li>
